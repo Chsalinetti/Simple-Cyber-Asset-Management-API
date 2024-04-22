@@ -1,0 +1,24 @@
+What would you change given extra time?
+
+    If give the extra time, I would like to add
+    functionallity to better validate and normalize
+    the data inputted into the database. I would
+    also like to add functionallity to add a "batch"
+    of assets into the database, which could improve
+    usability and performace greatly.
+
+What would you add to the API to make it more secure?
+
+    I would implement some sort of authorization
+    and authentication method, especially for
+    any endpoints which change or delete asset data.
+
+Would you continue using the same database?
+
+    Depends on the scale of the project, likely
+    not if this project needed to be larger.
+
+Could the project be more portable?
+
+    This project could be made more portable 
+    by using containerization tools like Docker.

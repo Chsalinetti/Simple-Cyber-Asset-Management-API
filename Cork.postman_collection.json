@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "25183429-ed2f-49e1-a30c-75a72ebccf29",
+		"name": "Cork",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15139187"
+	},
+	"item": [
+		{
+			"name": "Get All Assets",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Asset",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Specified Asset",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Specified Asset",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update Specified Asset",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Test Name\",\r\n    \"type\": \"Computer 2\",\r\n    \"serial_number\": \"987124\",\r\n    \"operating_system\": \"Windows\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/assets/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"assets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,9 @@
+Project Reflection:
+
+    In reflection, this project went smoothly.
+    Most of the functionallity was fairly standard,
+    so I didn't face a lot of issues. I did learn
+    about pagination, a concept I wasn't super
+    familiar with previously. Overall this served
+    as an enjoyable project, and a good refresher for
+    me on some of these skills.
