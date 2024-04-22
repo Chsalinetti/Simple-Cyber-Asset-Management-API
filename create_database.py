@@ -1,5 +1,6 @@
 import sqlite3
 
+# Creates initial database for API
 def create_database():
     db = sqlite3.connect('assets.db')
     cursor = db.cursor()
